@@ -62,8 +62,8 @@ public class MemberController {
 	}
 	
 	@RequestMapping("/delete")
-	public void delete(Member m, Model model) {
-		memberService.delete(m);
+	public void delete(@RequestParam("id") Long id, Model model) {
+		memberService.delete(id);
 		
 		
 	}

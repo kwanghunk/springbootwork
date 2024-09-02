@@ -1,0 +1,16 @@
+@charset "UTF-8";
+detailForm {
+    width: 600px;
+    height: 800px;
+    border: 1px solid;
+    text-align: left;
+}
+thead {
+    height: 10%;
+}
+tbody {
+    height: 60%;
+}
+tfoot {
+    height: 30%;
+}

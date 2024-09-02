@@ -43,14 +43,14 @@ public class MemberService {
 
 
 	public Member update(Member m) {
-		// save() : insert할 떄의 메소드(JPA에 API)
+		// save() : insert 할 때의 메소드(JPA에 API)
 		//			동일한 키가 있으면 update, 키가 없으면 insert
 		return memberrepository.save(m);
 	}
 
 
-	public void delete(Member m) {
-		memberrepository.delete(m);
+	public void delete(Long id) {
+		memberrepository.deleteById(id);
 	}
 
 	

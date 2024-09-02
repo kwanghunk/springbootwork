@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-size: 30px;
+  line-height: 50px;
+}
+.table1 {
+  margin: auto;
+  width: 500px;
+  border: 1px solid;
+}
